@@ -221,7 +221,7 @@ const externalParsing = ({ noEmojis, element } = {}) => {
 
 const url = str => /^(https?:|attachment:)?\/\//.test(str) ? str : "https://" + str
 const imgProxy = str => str.length > 3 && str.includes(".") && !str.startsWith("attachment:") ?
-	("https://api.tomatenkuchen.com/image-proxy?url=" + encodeURIComponent(url(str)) + "&origin=" + encodeURIComponent(location.origin)) : ""
+	("https://tk-api.chaoshosting.eu/image-proxy?url=" + encodeURIComponent(url(str)) + "&origin=" + encodeURIComponent(location.origin)) : ""
 const imgSrc = (elem, src) => elem.style.content = "url(" + imgProxy(src) + ")"
 const hide = el => el.style.removeProperty("display")
 const encode = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;")
@@ -1443,7 +1443,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		})
 	}
 
-	const socket = sockette("wss://api.tomatenkuchen.com/embedbuilder", {
+	const socket = sockette("wss://tk-api.chaoshosting.eu/embedbuilder", {
 		onClose: event => {
 			console.log("Disconnected!", event)
 			error("The connection to the bot has been lost, reload the page to reconnect.", "8s")

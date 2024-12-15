@@ -26,7 +26,7 @@ const minifyFile = async (inputPath, options = {}) => {
 			[inputPath]: content
 		}, {
 			sourceMap: {
-				root: "https://embed.tomatenkuchen.com/assets/",
+				root: "https://tk-embed.chaoshosting.eu/assets/",
 				filename,
 				url: filename + ".map"
 			},
