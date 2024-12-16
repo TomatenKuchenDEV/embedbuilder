@@ -324,7 +324,7 @@ module.exports = [
 			"@html-eslint/require-lang": 2,
 			"@html-eslint/require-title": 2,
 			"@html-eslint/no-extra-spacing-attrs": 2,
-			"@html-eslint/element-newline": 2,
+			"@html-eslint/element-newline": [2, {inline: ["$inline"]}],
 			"@html-eslint/quotes": 2,
 			"@html-eslint/require-img-alt": 2
 		}
