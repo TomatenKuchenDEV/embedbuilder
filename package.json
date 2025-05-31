@@ -13,7 +13,7 @@
     "uglify-js": "^3.19.3"
   },
   "devDependencies": {
-    "@html-eslint/eslint-plugin": "^0.40.3",
+    "@html-eslint/eslint-plugin": "^0.41.0",
     "@html-eslint/parser": "^0.41.0",
     "@stylistic/eslint-plugin-js": "^4.3.0",
     "eslint": "^9.27.0",
