@@ -229,7 +229,6 @@ const rules = {
 	"sonarjs/no-all-duplicated-branches": 2,
 	"sonarjs/no-ignored-return": 2,
 	"sonarjs/no-identical-expressions": 2,
-	"sonarjs/no-one-iteration-loop": 2,
 	"sonarjs/non-existent-operator": 2,
 	"sonarjs/no-redundant-boolean": 2,
 	"sonarjs/no-unused-collection": 2,
