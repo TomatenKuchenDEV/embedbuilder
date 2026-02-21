@@ -3,7 +3,7 @@ name: ESLint
 on:
   workflow_dispatch:
   push:
-    paths: [ "**/*.html", "**/*.js", ".github/workflows/eslint.yml", "../../eslint.config.mjs", "package.json"]
+    paths: [ "**/*.html", "**/*.js", ".github/workflows/eslint.yml", "eslint.config.mjs", "package.json"]
 
 jobs:
   lint:
