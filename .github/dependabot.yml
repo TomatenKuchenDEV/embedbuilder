@@ -12,11 +12,7 @@ updates:
     groups:
       eslint:
         patterns:
-          - "@html-parser/eslint-plugin"
-          - "@html-parser/parser"
-          - "@stylistic/eslint-plugin-js"
-          - "eslint"
-          - "eslint-plugin-*"
+          - "*eslint*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
